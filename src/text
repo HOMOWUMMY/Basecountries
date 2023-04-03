@@ -1,0 +1,9 @@
+to work with input in react, you have to consider 3 things;
+1. Have a useState('');
+2. Have a 2 way binding, the value and the onChange
+3. Update the initial value and store in the useState
+the onchange hold a function which is used to update the current state of the useState. this means the whatever the user types in the input will be shown on the browser
+SVELTE - JS
+
+when you are using try and catch, you must always use it with async
+to build an app, you have to put the potential errors that can happen, like network error, result not found etc. these are responses to some certain problems.
