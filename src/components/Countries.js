@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import CountriesList from './List/CountriesList';
+import Navbar from '../layout/Navbar';
 
 function Countries() {
     const [loading, setLoading] = useState(true);
@@ -39,6 +40,8 @@ function Countries() {
     return (
         <>
  <div className='container'>
+    <Navbar /> 
+    <br />
         {page}
         </div>
         </>
